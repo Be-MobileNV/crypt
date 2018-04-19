@@ -5,7 +5,7 @@
 ### Binary release
 
 ```
-wget https://github.com/xordataexchange/crypt/releases/download/v0.0.1/crypt-0.0.1-linux-amd64
+wget https://github.com/Be-MobileNV/crypt/releases/download/v0.0.1/crypt-0.0.1-linux-amd64
 mv crypt-0.0.1-linux-amd64 /usr/local/bin/crypt
 chmod +x /usr/local/bin/crypt
 ```
@@ -13,7 +13,7 @@ chmod +x /usr/local/bin/crypt
 ### go install
 
 ```
-go install github.com/xordataexchange/crypt/bin/crypt
+go install github.com/Be-MobileNV/crypt/bin/crypt
 ```
 
 ## Backends
@@ -42,7 +42,7 @@ usage: crypt set [args...] key file
 Example:
 
 ```
-crypt set -keyring pubring.gpg /app/config config.json 
+crypt set -keyring pubring.gpg /app/config config.json
 ```
 
 ### Retrieve and decrypted a value
@@ -67,4 +67,4 @@ crypt get -plaintext ...
 ```
 Crypt now has support for getting and setting plain unencrypted values, as
 a convenience.  This was added to the backend libraries so it could be exposed
-in spf13/viper. Use the -plaintext flag to get or set a value without encryption. 
+in spf13/viper. Use the -plaintext flag to get or set a value without encryption.
