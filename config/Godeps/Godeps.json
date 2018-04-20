@@ -1,0 +1,99 @@
+{
+	"ImportPath": "github.com/Be-MobileNV/crypt/config",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Be-MobileNV/crypt/backend",
+			"Comment": "v0.0.2-23-gd663b66",
+			"Rev": "d663b665ecb233d42f1be33f90d8acea7e3d44c0"
+		},
+		{
+			"ImportPath": "github.com/Be-MobileNV/crypt/backend/consul",
+			"Comment": "v0.0.2-23-gd663b66",
+			"Rev": "d663b665ecb233d42f1be33f90d8acea7e3d44c0"
+		},
+		{
+			"ImportPath": "github.com/Be-MobileNV/crypt/backend/etcd",
+			"Comment": "v0.0.2-23-gd663b66",
+			"Rev": "d663b665ecb233d42f1be33f90d8acea7e3d44c0"
+		},
+		{
+			"ImportPath": "github.com/Be-MobileNV/crypt/backend/mock",
+			"Comment": "v0.0.2-23-gd663b66",
+			"Rev": "d663b665ecb233d42f1be33f90d8acea7e3d44c0"
+		},
+		{
+			"ImportPath": "github.com/Be-MobileNV/crypt/encoding/secconf",
+			"Comment": "v0.0.2-23-gd663b66",
+			"Rev": "d663b665ecb233d42f1be33f90d8acea7e3d44c0"
+		},
+		{
+			"ImportPath": "github.com/armon/consul-api",
+			"Rev": "eb2c6b5be1b66bab83016e0b05f01b8d5496ffbd"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/client",
+			"Comment": "v3.3.0-rc.0-536-g15926e029",
+			"Rev": "15926e029c413872fe8ef277e606619c576ff5f7"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/pathutil",
+			"Comment": "v3.3.0-rc.0-536-g15926e029",
+			"Rev": "15926e029c413872fe8ef277e606619c576ff5f7"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/srv",
+			"Comment": "v3.3.0-rc.0-536-g15926e029",
+			"Rev": "15926e029c413872fe8ef277e606619c576ff5f7"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/pkg/types",
+			"Comment": "v3.3.0-rc.0-536-g15926e029",
+			"Rev": "15926e029c413872fe8ef277e606619c576ff5f7"
+		},
+		{
+			"ImportPath": "github.com/coreos/etcd/version",
+			"Comment": "v3.3.0-rc.0-536-g15926e029",
+			"Rev": "15926e029c413872fe8ef277e606619c576ff5f7"
+		},
+		{
+			"ImportPath": "github.com/coreos/go-semver/semver",
+			"Comment": "v0.2.0-9-ge214231",
+			"Rev": "e214231b295a8ea9479f11b70b35d5acf3556d9b"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Comment": "v1.1-16-g02537d3",
+			"Rev": "02537d3a3e32ef636a53519265d211bd208ca488"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/cast5",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/armor",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/elgamal",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/errors",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/packet",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/openpgp/s2k",
+			"Rev": "81e90905daefcd6fd217b62423c0908922eadb30"
+		}
+	]
+}
