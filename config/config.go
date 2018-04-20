@@ -47,8 +47,8 @@ func NewConfigManager(client backend.Store, keystore io.Reader) (ConfigManager, 
 }
 
 // NewStandardEtcdConfigManager returns a new ConfigManager backed by etcd.
-func NewStandardEtcdConfigManager(machines []string) (ConfigManager, error) {
-	store, err := etcd.New(machines)
+func NewStandardEtcdConfigManager(machines []string, username string, password string) (ConfigManager, error) {
+	store, err := etcd.NewWithAuth(machines, username, password)
 	if err != nil {
 		return nil, err
 	}

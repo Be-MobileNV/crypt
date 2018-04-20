@@ -25,6 +25,20 @@ func New(machines []string) (*Client, error) {
 		return nil, fmt.Errorf("creating new etcd client for crypt.backend.Client: %v", err)
 	}
 	keysAPI := goetcd.NewKeysAPI(newClient)
+
+	return &Client{client: newClient, keysAPI: keysAPI, waitIndex: 0}, nil
+}
+
+func NewWithAuth(machines []string, username string, password string) (*Client, error) {
+	newClient, err := goetcd.New(goetcd.Config{
+		Endpoints: machines,
+		Username:  username,
+		Password:  password,
+	})
+	if err != nil {
+		return nil, fmt.Errorf("creating new etcd client for crypt.backend.Client: %v", err)
+	}
+	keysAPI := goetcd.NewKeysAPI(newClient)
 	return &Client{client: newClient, keysAPI: keysAPI, waitIndex: 0}, nil
 }
 
